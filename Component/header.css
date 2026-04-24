@@ -1,0 +1,12 @@
+header {
+  background-color: var(--main-color);
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
+}
+.lang {
+  cursor: pointer;
+}

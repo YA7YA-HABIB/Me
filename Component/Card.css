@@ -1,0 +1,74 @@
+.card-con {
+  height: 180px;
+  background-color: var(--cards);
+  min-width: 140px;
+  margin-block: 5px;
+  max-width: 120%;
+  flex-grow: 1;
+  padding: 4px;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 0 white;
+  user-select: none;
+  transition: all 0.9s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.image {
+  height: 180px;
+  background-color: white;
+  min-width: 140px;
+  max-width: 70vw;
+  position: relative;
+  user-select: none;
+  top: -185px;
+  transition: all 0.9s ease;
+  z-index: -1;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: 0;
+  transform: rotateY(-180deg);
+}
+
+.card-con:hover {
+  transform: rotateY(180deg);
+}
+.card-con:hover + .image {
+  transform: rotateY(0deg);
+  z-index: 0;
+  opacity: 1;
+}
+.image:hover {
+  z-index: 0;
+  opacity: 1;
+}
+
+#showimgCon {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(128, 128, 128, 0.658);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  backdrop-filter: blur(2px);
+}
+
+#showimgCon > #showimage {
+  max-width: 80%;
+  max-height: 90%;
+}
+.close {
+  background-color: red;
+  border-radius: 5px;
+  position: fixed;
+  cursor: pointer;
+  top: 15px;
+  inset-inline-end: 15px;
+}

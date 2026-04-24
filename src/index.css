@@ -1,0 +1,20 @@
+:root {
+  --bg: #0b0f19;
+  --border-color: #31445e;
+  --sections: #111827;
+  --cards: #1f2937;
+  --main-text: #f9fafb;
+  --second-text: #9ca3af;
+  --main-color: #3b82f6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--main-text);
+}
+
+body {
+  background: var(--bg);
+}

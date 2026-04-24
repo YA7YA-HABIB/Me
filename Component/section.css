@@ -1,0 +1,46 @@
+.sec-con {
+  background-color: var(--sections);
+  border: 1px solid var(--border-color);
+  margin: 5px;
+  padding: 4px;
+  border-radius: 3px;
+  box-shadow: 0 0 3px 0px white;
+  transition: scale ease 0.3s;
+  width: 80%;
+  max-width: 620px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-self: center;
+  margin-bottom: 28px;
+}
+@media (min-width: 920px) {
+  .sec-con {
+    width: 85%;
+    max-width: 900px;
+  }
+}
+.sec-card-con {
+  display: flex;
+  flex-direction: row;
+  gap: 11px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding-inline: 8px;
+  max-height: 200px;
+}
+.sec-card-con::-webkit-scrollbar {
+  background-color: var(--sections);
+  position: absolute;
+  height: 7px;
+  width: 7px;
+}
+.sec-card-con::-webkit-scrollbar-corner {
+  color: var(--sections);
+}
+
+.sec-card-con::-webkit-scrollbar-thumb {
+  background-color: var(--border-color);
+  border-radius: 14px;
+}

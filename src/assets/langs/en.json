@@ -28,22 +28,22 @@
         {
           "titel": "Home Page",
           "disc": "Home page Showing games eather if user is loged in or not, but every action you did alert you to sign in firset",
-          "src": "../src/assets/images/storP11.png"
+          "src": "../public/images/storP11.png"
         },
         {
           "titel": "Dark Mode",
           "disc": "since every gamer prefer dark mode, it is the main theme in this site, although user can easly change the theme.",
-          "src": "../src/assets/images/Dark11.png"
+          "src": "../public/images/Dark11.png"
         },
         {
           "titel": "Register",
           "disc": "to create your account you have to go throw this form, its safe for your password as user, and safe for your database as developer, and easy to use",
-          "src": "../src/assets/images/registeration11.png"
+          "src": "../public/images/registeration11.png"
         },
         {
           "titel": "Search",
           "disc": "to provide easy UX, user sould be able to search for the game he want by just typing parts of its name, its easy and so quick.",
-          "src": "../src/assets/images/searchbar11.png"
+          "src": "../public/images/searchbar11.png"
         }
       ]
     },
@@ -55,32 +55,32 @@
         {
           "titel": "Setting Page",
           "disc": "User can find his own, and linked car and easly control them from this page.",
-          "src": "../src/assets/images/photo31.jpg"
+          "src": "../public/images/photo31.jpg"
         },
         {
           "titel": "Add",
           "disc": "user can add new cars, or send alink request to the owner.",
-          "src": "../src/assets/images/photo32.jpg"
+          "src": "../public/images/photo32.jpg"
         },
         {
           "titel": "Home",
           "disc": "Home page showing all cars linked to your account, and you can desactive/ activate alarm for any car.",
-          "src": "../src/assets/images/photo33.jpg"
+          "src": "../public/images/photo33.jpg"
         },
         {
           "titel": "notifications",
           "disc": "notifications page show you car link requests that you can approve/ignor it and old alarms.",
-          "src": "../src/assets/images/photo34.jpg"
+          "src": "../public/images/photo34.jpg"
         },
         {
           "titel": "my account",
           "disc": "you can change your password, see when your plan end or when it ended",
-          "src": "../src/assets/images/photo35.jpg"
+          "src": "../public/images/photo35.jpg"
         },
         {
           "titel": "error handling",
           "disc": "if you have no cars, you can go to add more easly.",
-          "src": "../src/assets/images/photo36.jpg"
+          "src": "../public/images/photo36.jpg"
         }
       ]
     },
@@ -91,17 +91,17 @@
         {
           "titel": "Cart",
           "disc": "in any buy thing app you should add your things to the cart first,since its the most important thing, you can reach, show and edit the cart easly from any page you ar in.",
-          "src": "../src/assets/images/image21.png"
+          "src": "../public/images/image21.png"
         },
         {
           "titel": "loading",
           "disc": "handling loading state by the right way makes the user more comfortable with your app.",
-          "src": "../src/assets/images/image22.png"
+          "src": "../public/images/image22.png"
         },
         {
           "titel": "langs",
           "disc": "as auser, you can easly change langues by one click, as aowner, you can easly change the scripts in your site.",
-          "src": "../src/assets/images/image24.png"
+          "src": "../public/images/image24.png"
         }
       ]
     }

@@ -104,6 +104,37 @@
           "src": "/images/image24.png"
         }
       ]
+    },
+    {
+      "projectName": "job&traning ",
+      "projectDisc": "afull-stack jobs app created by react and firebase, it allows users to search for jobs and training courses, and sort them by location or type, or bothe, its simple and easy to use app with a clean UI, this project is allready published by fake data, you can take alook at it by copying this link in your browser: https://higher-steps.web.app/",
+      "projectImgs": [
+        {
+          "titel": "Home Page",
+          "disc": "home page showing asimple animated UI explain what the site do and offers a quick links to get other pages.",
+          "src": "/images/photo41.jpg"
+        },
+        {
+          "titel": "full job",
+          "disc": "showing the full job info with aquik applay button, and the same for training courses.",
+          "src": "/images/photo42.jpg"
+        },
+        {
+          "titel": "contact bar",
+          "disc": "showing contact info with easy to use icons, admin could change this info easly from the admin panel.",
+          "src": "/images/photo43.jpg"
+        },
+        {
+          "titel": "jobs, computer",
+          "disc": "showing all jobs, it appear in a clean way, every 25 job loaded togother, and you can easly load more, to make the user more comfortable with the app/ notice that the header respons to screen size.",
+          "src": "/images/home.png"
+        },
+        {
+          "titel": "filter",
+          "disc": "showing filter options to sort jobs by location, type or both, you can easly apply the filter by one click.",
+          "src": "/images/filter.png"
+        }
+      ]
     }
   ],
   "thanks": "thanks for geting here, Do not hesitate to reach out!."
